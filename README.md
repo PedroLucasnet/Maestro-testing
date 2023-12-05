@@ -1,3 +1,7 @@
+# Usage notes
+## Set your key in an environment variable
+export MSTR_KEY=your-key
+
 # Version notes / roadmap
 
  - v0.0. 
@@ -33,4 +37,8 @@ clear && ts-node index.ts     ←-to run it
 
 Command 'tsc' not found, but can be installed with:
 sudo apt install node-typescript
+
+# Misc research while building this
+Using Environment Variables in TypeScript with dotenv | by Sushant | Medium
+https://medium.com/@sushantkadam15/using-environment-variables-in-typescript-with-dotenv-dc0c35939059
 
